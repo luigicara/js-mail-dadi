@@ -21,18 +21,19 @@ button.addEventListener('click',
 
                 if (emailArray[i] == inputField.value) {
 
-                    result = "Complimenti sei nella lista"
+                    result = "Complimenti sei nella lista";
                 }
             }
         
-            div.innerHTML = result
+            div.innerHTML = result;
+            
         } else {
             alert("Indirizzo mail invalido")
-            div.innerHTML = ""
+            div.innerHTML = "";
         }    
 
         if (inputField !== "") {
-            inputField.value = ""
+            inputField.value = "";
         }
     }
 )  
