@@ -32,7 +32,7 @@ button.addEventListener('click',
             div.innerHTML = "";
         }    
 
-        if (inputField !== "") {
+        if (inputField.value !== "") {
             inputField.value = "";
         }
     }
